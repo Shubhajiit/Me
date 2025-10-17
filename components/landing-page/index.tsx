@@ -373,7 +373,7 @@ export default function LandingPage() {
             </motion.a>
 
             <motion.a
-              href="mailto:hareeshbhittam@email.com"
+              href="mailto:shubhajitbasak45@gmail.com"
               whileHover={{ scale: 1.05, y: -2 }}
               whileTap={{ scale: 0.95 }}
               className="transition-all duration-300 w-full sm:w-auto"

@@ -212,7 +212,7 @@ export default function AboutMePage() {
                   className="flex flex-col sm:flex-row gap-4 pt-4"
                 >
                   <motion.a
-                    href="#contact"
+                    href="mailto:shubhajitbasak45@gmail.com"
                     className="flex items-center justify-center gap-2 px-6 py-3 bg-primary text-primary-foreground hover:bg-primary/90 font-medium rounded-xl transition-all duration-300 shadow-lg hover:shadow-xl"
                     whileHover={{ scale: 1.02, y: -2 }}
                     whileTap={{ scale: 0.98 }}
