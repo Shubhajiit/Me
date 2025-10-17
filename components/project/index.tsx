@@ -5,6 +5,7 @@ import { motion } from "framer-motion";
 import { ArrowUpRight, GithubIcon, Globe } from "lucide-react";
 import { Card, CardFooter, CardContent } from "../ui/card";
 import { PROJECT_INFO } from "@/lib/utils";
+import { Project } from "@/lib/types";
 
 export default function ProjectPage() {
   return (
@@ -117,9 +118,9 @@ export default function ProjectPage() {
                       <span>GitHub</span>
                     </motion.a>
 
-                    {project?.live && (
+                    {project.live && (
                       <motion.a
-                        href={project?.live}
+                        href={project.live}
                         target="_blank"
                         rel="noopener noreferrer"
                         aria-label={`View ${project.name} live`}

@@ -6,7 +6,6 @@ import { motion } from "framer-motion";
 import { Button } from "../ui/button";
 import { useTheme } from "next-themes";
 import { Cover } from "../ui/cover";
-import { Compare } from "../ui/compare";
 import AboutMePage from "../about-me";
 import { SocialDialog } from "../ui/social-dialog";
 import { useWindowEvent } from "@/contexts/window-event-provider";
