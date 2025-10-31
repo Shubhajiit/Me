@@ -1,5 +1,5 @@
 <div align="center">
-	<h1>me</h1>
+	<h1>Portfolio</h1>
 	<p>Personal portfolio built with <a href="https://nextjs.org/">Next.js</a>, <a href="https://tailwindcss.com/">Tailwind CSS</a>, and modern web technologies.</p>
 </div>
 
