@@ -26,11 +26,11 @@ export const PROJECT_INFO: Project[] = [
   },
   {
     id: 1,
-    name: "CodeFix_Pro",
+    name: "Mobile_Management_System",
     image: "/assets/project/harudb.png",
     description:
-      "CodeFix_Pro is an innovative platform designed to streamline the process of fixing and optimizing code. Built using Python, HTML, and CSS, this project aims to provide developers with tools that enhance code quality and productivity. 💻✨",
-    link: "https://github.com/Shubhajiit/CodeFix_Pro",
+      "A comprehensive management system for Mobile-Management-Shop, featuring inventory management, invoice generation, and customer tracking.. 💻✨",
+    link: "https://github.com/Shubhajiit/Mobile-Managment-System",
     live: null,
     bullets: [
       "TCP-based client-server architecture with interactive REPL",
@@ -42,7 +42,7 @@ export const PROJECT_INFO: Project[] = [
       "Docker & Kubernetes ready with comprehensive CLI tools",
       "Memory-first design with JSON persistence and atomic operations",
     ],
-    tech: ["Python", "HTML", "Tailwind CSS", "JavaScript", "Gemini"],
+    tech: ["React", "Node.Js", "Express.Js", "JavaScript", "Supabase"],
   },
   {
     id: 2,
@@ -62,12 +62,12 @@ export const PROJECT_INFO: Project[] = [
   },
   {
     id: 3,
-    name: "Coming Soon",
+    name: "CodeFix_Pro",
     image: "/assets/project/nextjs-snippets.png",
-    description: "Project details coming soon...",
-    link: "https://github.com",
+    description: "CodeFix_Pro is an innovative platform designed to streamline the process of fixing and optimizing code. Built using Python, HTML, and CSS, this project aims to provide developers with tools that enhance code quality and productivity.",
+    link: "https://github.com/Shubhajiit/CodeFix_Pro",
     live: null,
-    tech: ["Coming Soon"],
+    tech: ["Python", "HTML","Tailwind","Gemini"],
   },
   {
     id: 4,
