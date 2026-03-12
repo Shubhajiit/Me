@@ -10,11 +10,11 @@ import { Project } from './types';
 export const PROJECT_INFO: Project[] = [
   {
     id: 0,
-    name: "Traffic_Management_Sytm",
+    name: "AgriSmart",
     image: "/assets/project/harukit-ui.png",
     description:
-      "Welcome to the Traffic Management System project! This web application is designed to streamline and optimize traffic flow management. Built using modern web technologies, this system provides an efficient solution for handling traffic-related challenges. 🌐",
-    link: "https://github.com/Shubhajiit/Traffic_Management_System",
+      "A comprehensive digital ecosystem designed to modernize traditional agriculture through data-driven insights. This platform empowers farmers with precision soil analysis, automated financial tracking (Khata Book), and real-time weather monitoring.",
+    link: "https://github.com/Shubhajiit/AgriSmart",
     live: null,
     bullets: [
       "Modern React 19 components with full TypeScript support",
@@ -22,14 +22,14 @@ export const PROJECT_INFO: Project[] = [
       "Interactive documentation with Fumadocs and MDX",
       "Accessibility-first design following WCAG guidelines",
     ],
-    tech: ["HTML", "Tailwind CSS", "JavaScript", "PHP"],
+    tech: ["React", "Tailwind CSS", "Node.Js", "Express.Js","Python","Flask","MongoDB"],
   },
   {
     id: 1,
     name: "Mobile_Management_System",
     image: "/assets/project/harudb.png",
     description:
-      "A comprehensive management system for Mobile-Management-Shop, featuring inventory management, invoice generation, and customer tracking.. 💻✨",
+      "A comprehensive management system for Mobile-Management-Shop, featuring inventory management, invoice generation, and customer tracking.",
     link: "https://github.com/Shubhajiit/Mobile-Managment-System",
     live: null,
     bullets: [
