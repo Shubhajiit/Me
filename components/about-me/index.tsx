@@ -94,7 +94,7 @@ export default function AboutMePage() {
                     transition={{ duration: 0.6, delay: 0.4 }}
                     className="text-lg text-muted-foreground leading-relaxed"
                   >
-                    I&#39;m a Mern Stack Developer & Content Creator at {" "}
+                    I&#39;m a Full  Stack Web Developer 
                     <motion.a
                       href="https://www.instagram.com/subhzt/"
                       target="_blank"
@@ -102,7 +102,7 @@ export default function AboutMePage() {
                       className="text-primary hover:text-primary/80 font-semibold transition-colors duration-300 inline-flex items-center gap-1 group"
                       whileHover={{ scale: 1.02 }}
                     >
-                      <span>Instagram</span>
+                      {/* <span>Instagram</span> */}
                       <ArrowUpRight className="w-4 h-4 transition-transform duration-300 group-hover:translate-x-1 group-hover:-translate-y-1" />
                     </motion.a>
                     , where I craft innovative solutions and bring ideas to
