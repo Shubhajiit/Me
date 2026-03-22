@@ -354,47 +354,43 @@ export default function LandingPage() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.9 }}
-            className="flex flex-col sm:flex-row justify-center md:justify-start gap-4 mt-4 w-full"
+            className="flex flex-col sm:flex-row justify-center md:justify-start gap-4 mt-4 w-full relative z-50"
           >
-            <motion.div
-              whileHover={{ scale: 1.05, y: -2 }}
-              whileTap={{ scale: 0.95 }}
-              className="transition-all duration-300 w-full sm:w-auto"
+            <Button
+              asChild
+              className="w-full sm:w-auto text-lg bg-secondary text-secondary-foreground hover:bg-secondary/80 border border-border shadow-lg hover:shadow-xl transition-all duration-300 cursor-pointer"
+              variant="secondary"
+              size="lg"
             >
-              <Button
-                asChild
-                className="w-full sm:w-auto text-lg bg-secondary text-secondary-foreground hover:bg-secondary/80 border border-border shadow-lg hover:shadow-xl transition-all duration-300"
-                variant="secondary"
-                size="lg"
+              <motion.a
+                href="#about-me"
+                whileHover={{ scale: 1.05, y: -2 }}
+                whileTap={{ scale: 0.95 }}
+                className="flex items-center justify-center w-full"
               >
-                <a href="#about-me">
-                  <span>Know More</span>
-                  <ArrowDown className="w-4 h-4 ml-2 transition-transform duration-300 group-hover:translate-y-1" />
-                </a>
-              </Button>
-            </motion.div>
+                <span>Know More</span>
+                <ArrowDown className="w-4 h-4 ml-2 transition-transform duration-300 group-hover:translate-y-1" />
+              </motion.a>
+            </Button>
 
-            <motion.div
-              whileHover={{ scale: 1.05, y: -2 }}
-              whileTap={{ scale: 0.95 }}
-              className="transition-all duration-300 w-full sm:w-auto"
+            <Button
+              asChild
+              className="w-full sm:w-auto text-lg bg-primary text-primary-foreground hover:bg-primary/90 shadow-lg hover:shadow-xl transition-all duration-300 cursor-pointer"
+              variant="default"
+              size="lg"
             >
-              <Button
-                asChild
-                className="w-full sm:w-auto text-lg bg-primary text-primary-foreground hover:bg-primary/90 shadow-lg hover:shadow-xl transition-all duration-300"
-                variant="default"
-                size="lg"
+              <motion.a
+                href="https://drive.google.com/file/d/1Qu44bSio9106qs2NgF9fU4F49fkKYdKP/view?usp=sharing"
+                target="_blank"
+                rel="noopener noreferrer"
+                whileHover={{ scale: 1.05, y: -2 }}
+                whileTap={{ scale: 0.95 }}
+                className="flex items-center justify-center w-full"
               >
-                <a
-                  href="https://drive.google.com/file/d/1Qu44bSio9106qs2NgF9fU4F49fkKYdKP/view?usp=sharing"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <span>My Resume</span>
-                  <Sparkles className="w-4 h-4 ml-2" />
-                </a>
-              </Button>
-            </motion.div>
+                <span>My Resume</span>
+                <Sparkles className="w-4 h-4 ml-2" />
+              </motion.a>
+            </Button>
           </motion.div>
 
           {/* Quick Stats */}
