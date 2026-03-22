@@ -2,9 +2,13 @@
 
 import React from "react";
 import { motion } from "framer-motion";
-import { ArrowUpRight, Code, Briefcase, Sparkles } from "lucide-react";
+import { ArrowUpRight, Code, Briefcase, GraduationCap } from "lucide-react";
 import { Skills } from "./skills";
-import { BACKEND_SKILLS, DEVOPS_SKILLS, FRONTEND_SKILLS } from "@/lib/utils";
+import {
+  BACKEND_SKILLS,
+  DEVOPS_SKILLS,
+  FRONTEND_SKILLS,
+} from "@/lib/utils";
 
 export default function AboutMePage() {
   return (
@@ -180,30 +184,74 @@ export default function AboutMePage() {
                   className="flex items-start gap-3"
                 >
                   <div className="p-2 bg-primary/10 rounded-lg">
-                    <Sparkles className="w-5 h-5 text-primary" />
+                    <GraduationCap className="w-5 h-5 text-primary" />
                   </div>
-                  <h2 className="text-2xl md:text-3xl font-bold text-foreground">
-                    Let&#39;s Build Something Amazing
-                  </h2>
+                  <h2 className="text-2xl md:text-3xl font-bold text-foreground">Education</h2>
                 </motion.div>
 
-                <motion.p
+                <motion.div
                   initial={{ opacity: 0, y: 20 }}
                   whileInView={{ opacity: 1, y: 0 }}
                   transition={{ duration: 0.6, delay: 0.5 }}
-                  className="text-muted-foreground leading-relaxed space-y-4"
+                  className="space-y-4"
                 >
-                  <span className="block">
-                    With extensive experience in building production-ready
-                    applications, I am well-equipped to bring your next project
-                    to life with precision and care.
-                  </span>
-                  <span className="block">
-                    From concept to deployment, I ensure every detail is crafted
-                    with excellence. Let&#39;s work together to create something
-                    truly exceptional.
-                  </span>
-                </motion.p>
+                  <div className="rounded-2xl border border-border bg-background/40 p-4 md:p-5">
+                    <div className="flex flex-col gap-1 sm:flex-row sm:items-start sm:justify-between">
+                      <div>
+                        <h3 className="font-semibold text-foreground">
+                          Lovely Professional University
+                        </h3>
+                        <p className="text-sm text-muted-foreground">
+                          Phagwara, Punjab
+                        </p>
+                      </div>
+                      <p className="text-sm font-medium text-muted-foreground sm:text-right">
+                        Aug&#39; 23 – Present
+                      </p>
+                    </div>
+                    <p className="mt-3 text-sm text-muted-foreground leading-relaxed">
+                      Bachelor of Technology — Computer Science and Engineering; CGPA: 6.8
+                    </p>
+                  </div>
+
+                  <div className="rounded-2xl border border-border bg-background/40 p-4 md:p-5">
+                    <div className="flex flex-col gap-1 sm:flex-row sm:items-start sm:justify-between">
+                      <div>
+                        <h3 className="font-semibold text-foreground">
+                          Gangarampur High School
+                        </h3>
+                        <p className="text-sm text-muted-foreground">
+                          Gangarampur, West Bengal
+                        </p>
+                      </div>
+                      <p className="text-sm font-medium text-muted-foreground sm:text-right">
+                        Apr&#39; 21 – Mar&#39; 23
+                      </p>
+                    </div>
+                    <p className="mt-3 text-sm text-muted-foreground leading-relaxed">
+                      Intermediate — PCM; Percentage: 86
+                    </p>
+                  </div>
+
+                  <div className="rounded-2xl border border-border bg-background/40 p-4 md:p-5">
+                    <div className="flex flex-col gap-1 sm:flex-row sm:items-start sm:justify-between">
+                      <div>
+                        <h3 className="font-semibold text-foreground">
+                          Gangarampur High School
+                        </h3>
+                        <p className="text-sm text-muted-foreground">
+                          Gangarampur, West Bengal
+                        </p>
+                      </div>
+                      <p className="text-sm font-medium text-muted-foreground sm:text-right">
+                        Apr&#39; 19 – Mar&#39; 20
+                      </p>
+                    </div>
+                    <p className="mt-3 text-sm text-muted-foreground leading-relaxed">
+                      Matriculation
+                    </p>
+                  </div>
+                </motion.div>
 
                 <motion.div
                   initial={{ opacity: 0, y: 20 }}

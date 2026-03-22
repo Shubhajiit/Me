@@ -1,4 +1,5 @@
 import ContactPage from "@/components/contact";
+import CertificationsSection from "@/components/certifications";
 import Footer from "@/components/footer";
 import LandingPage from "@/components/landing-page";
 import ProjectPage from "@/components/project";
@@ -12,6 +13,8 @@ export default function Home() {
       <ProjectPage />
 
       <Tech />
+
+      <CertificationsSection />
 
       <ContactPage />
 

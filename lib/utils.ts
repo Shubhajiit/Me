@@ -225,3 +225,53 @@ export const BACKEND_SKILLS = [
     darkColor: "rgba(6, 182, 212, 0.2)",
   },
 ];
+
+export type Certification = {
+  id: string;
+  title: string;
+  issuer: string;
+  date?: string;
+  credentialId?: string;
+  description?: string;
+  driveUrl: string;
+};
+
+export const CERTIFICATIONS: Certification[] = [
+  {
+    id: "aws-genai-intro-2025",
+    title: "Introduction to Generative AI",
+    issuer: "AWS Training & Certification",
+    date: "2025",
+    credentialId: "ABC-123",
+    description: "Gained foundational knowledge of generative AI concepts, including large language models (LLMs), prompt engineering, and real-world AI applications.",
+    driveUrl: "https://drive.google.com/file/d/1i6rrnTPD-Svg9nkILsE9hGKKXQ1QLZCo/view?usp=sharing",
+  },
+
+  {
+    id: "cert-2",
+    title: "Frontend Developer (React) Certificate",
+    issuer: "HackerRank",
+    date: "2025",
+    credentialId: "",
+    description: "Validated proficiency in React.js, JavaScript (ES6+), component-based architecture, state management, and front-end problem solving.",
+    driveUrl: "https://www.hackerrank.com/certificates/iframe/ff46bcc4a716",
+  },
+  {
+    id: "cert-3",
+    title: "Complete Web Development Course",
+    issuer: "Udemy",
+    date: "2025",
+    credentialId: "",
+    description: "Gained hands-on experience in building websites using HTML, CSS, JavaScript, and modern web development practices.",
+    driveUrl: "https://udemy-certificate.s3.amazonaws.com/pdf/UC-dde69327-0a1b-46e7-ae25-19751d858727.pdf",
+  },
+  {
+    id: "cert-4",
+    title: "Legacy Responsive Web Design V8",
+    issuer: "FreeCodeCamp",
+    date: "2023",
+    credentialId: "",
+    description: "Demonstrated proficiency in core JavaScript concepts including ES6+, DOM manipulation, asynchronous programming, and problem solving.",
+    driveUrl: "https://www.freecodecamp.org/certification/shubhajit_basak/responsive-web-design",
+  },
+];
